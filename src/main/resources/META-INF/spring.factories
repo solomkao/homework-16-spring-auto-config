@@ -1,3 +1,4 @@
 # Auto Configure
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.solomka.springautoconfig.ConfigurationEnabler
+  com.solomka.springautoconfig.AutoSpringConfigForClass,\
+  com.solomka.springautoconfig.AutoSpringConfigForBean
